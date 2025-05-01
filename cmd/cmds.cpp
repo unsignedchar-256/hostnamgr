@@ -7,7 +7,7 @@ void commands::process(std::vector<std::string>* strings) {
     {
         if (strings->at(i).substr(0, 5) == "--get") {
             commands::get();
-        } else if (strings->at(i).substr(0, 9) == "--get-max") {
+        } else if (strings->at(i).substr(0, 5) == "--max") {
             commands::getmax();
         } else if (strings->at(i).substr(0, 5) == "--set") {
             if ((i + 1) < strings->size()) {

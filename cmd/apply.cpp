@@ -20,7 +20,7 @@ void commands::apply() {
                 file_content.insert(file_content.end(), buffer.at(i));
             }   
             
-            std::cout << "Read " << size << " bytes\n";
+            std::cout << "Read " << size << " bytes (have " << file_content.size() << " bytes)\n";
         }
 
         std::string name = std::string(file_content.data());

@@ -3,7 +3,7 @@
 #include "./cmds.h"
 
 void commands::help() {
-    std::cout << "hostname -- Change your machine host name\n";
+    std::cout << "hostname -- Change your shitty ass machine host name\n";
     std::cout << "WARNING: Every host name changes are temporary and will not be applied at the next boot.\n\n";
 
     std::cout << "Usage:\n";
@@ -11,7 +11,7 @@ void commands::help() {
 
     std::cout << "\n";
 
-    std::cout << "--get-max       Obtain hostname character limit\n";
+    std::cout << "--max           Obtain hostname character limit\n";
     std::cout << "--get           Get current hostname\n";
     std::cout << "--set <name>    Change current hostname temporarily\n";
     std::cout << "--apply         Apply hostname from \"/etc/hostname\"\n";
